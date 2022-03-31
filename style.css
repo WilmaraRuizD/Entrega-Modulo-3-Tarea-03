@@ -25,7 +25,7 @@
     
 }
 
-.contenedor_1{
+.contenedor{
   display: none;
     background: rgb(0, 0, 0,0.459);
     position:fixed;
@@ -57,7 +57,7 @@ img{
   
 }
 
-.contenedor_1{
+.contenedor{
   display: none;
   background: rgb(0, 0, 0,0.459);
   display: flex;
@@ -70,11 +70,11 @@ img{
 
 
 .modal_container{
-  background: y;
+  background: rgb(235, 235, 116);
   width: 95%;
   max-width: 500px;
   padding: 25px;
   box-sizing: border-box;
   border-radius: 5px  ;
   position: relative;
-} */
+} 
