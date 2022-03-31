@@ -1,0 +1,38 @@
+
+  *{
+    margin:0;
+    padding: 0;
+    outline:0;
+    box-sizing: border-box;
+    background-image: url("img/img.png");
+    background-repeat: no-repeat;
+    align-content: center;
+  
+  }
+
+
+  .button{
+    border-radius: 20px;
+    background-color:#f3e95c;
+    width: 100px;
+    height: 40px;
+}
+
+img{
+  width: 20%;
+  height:15%;
+  border-radius: 12px;
+  
+}
+
+.contenedor{
+  justify-content: center;
+  background: rgb(236, 250, 158);
+  width: 300px;
+  display: flex;
+  position:fixed;
+  /* position: relative; */
+  height: 400px;
+  border: solid;
+  border-radius: 12px;
+}
