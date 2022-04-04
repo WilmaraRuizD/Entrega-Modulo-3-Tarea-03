@@ -28,7 +28,7 @@
 .contenedor{
   display: none;
     background: rgb(0, 0, 0,0.459);
-    position:fixed;
+    /* position:fixed; */
     width: 100vw;  
     height: 100vh;
     justify-content: center;
@@ -38,7 +38,6 @@
   }
 
   .modal_container2{
-
     background: wheat;
     width: 75%;
     max-width: 500px;
@@ -49,6 +48,22 @@
 
 }
 
+.modal_container3{
+  display: none;
+  background: wheat;
+  width: 75%;
+  max-width: 500px;
+  padding: 25px;
+  box-sizing: border-box;
+  border-radius: 5px  ;
+  justify-content: center;
+  align-items: center;  
+  margin-left: 35%;
+
+
+}
+
+
 img{
   border-top: 20%;
   width: 20%;
@@ -56,25 +71,3 @@ img{
   border-radius: 12px;
   
 }
-
-.contenedor{
-  display: none;
-  background: rgb(0, 0, 0,0.459);
-  display: flex;
-  position:fixed; 
-  border: solid;
-  border-radius: 12px;
-  justify-content: center;
-  align-items: center;
-}
-
-
-.modal_container{
-  background: rgb(235, 235, 116);
-  width: 95%;
-  max-width: 500px;
-  padding: 25px;
-  box-sizing: border-box;
-  border-radius: 5px  ;
-  position: relative;
-} 
