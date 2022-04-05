@@ -6,11 +6,8 @@
 const div = document.getElementById("root")
 let boton1 = document.getElementById('botonInicio');
 let boton2 = document.getElementById('verCartas');
-let colors = ["red", "orange", "blue"]
-let i=0;
 
 boton1.addEventListener('click', function () {
-  alert("Me estan precionando")
   document.getElementById("modal").style.display = "block".display = "flex";
 })
 
@@ -30,30 +27,28 @@ fetch(url) //Peticion GET
       } = personajes;
 
       let nombre = personajes.name;
-      let imagenes=personajes.image;
- 
+      let imagenes = personajes.image;
+      let houses = personajes.house;
+
+      console.log(houses);
       num = Math.floor(Math.random() * (3 - 0) + 0);
-      boton2.addEventListener('click',(e)=> {
-          e.preventDefault();       
 
-         if (image) {
-          
-          document.getElementById("modal").style.display = "block".display = "none";
-          document.getElementById("root").style.display = "block".display = "flex";
-
-         div.innerHTML += `
-          <div class="personajes">
-            <img class="personajes" src=${image}><br>
-            <div class="texto">
-            <p id="nombre" class="nombre">${personajes["name"]}
-            <p id="escuela" style="color: ${colors[num]}"> ${personajes["house"]}"
-            
-            </div>  
-            </div>  
-              `
-        }
-      })
-
+      // boton2.addEventListener('click',(e)=> {
+      //     e.preventDefault();   
+      //     document.getElementById("modal").style.display = "block".display = "none";
+      //     document.getElementById("root").style.display = "block".display = "flex";
+      //  if (image) {
+      //    div.innerHTML += `
+      //   <div class="personajes">
+      //     <img class="personajes" src=${image}><br>
+      //     <div class="texto">
+      //     <p id="nombre" class="nombre">${personajes["name"]}
+      //     <p id="escuela" style="color: ${colors[num]}"> ${personajes["house"]}"
+      //     </div>  
+      //     </div>  
+      //       `
+      // }
+      // })
 
     });
 
@@ -63,8 +58,4 @@ fetch(url) //Peticion GET
 function obtenerLocalstorage() {
   let personajes = localStorage.getItem('personajes');
   console.log(personajes);
-
-  
-
 }
-

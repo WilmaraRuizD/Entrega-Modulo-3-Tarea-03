@@ -1,0 +1,100 @@
+  * {
+    justify-content: center;
+  }
+
+  body {
+    background-image: url("img.png");
+    background-repeat: no-repeat;
+  }
+
+  .div1 {
+    margin-left: 45%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .button {
+    border-radius: 20px;
+    background-color: #f3e95c;
+    width: 150px;
+    height: 40px;
+    font-family: 'Fontdiner Swanky', cursive;
+  }
+
+  .contenedor {
+    display: none;
+    background: rgb(0, 0, 0, 0.459);
+    /* position:fixed; */
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+  }
+
+  .modal_container2 {
+    background: wheat;
+    width: 75%;
+    max-width: 500px;
+    padding: 25px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    position: relative;
+  }
+
+  .modal_container3 {
+    display: none;
+    background: wheat;
+    width: 75%;
+    max-width: 500px;
+    padding: 25px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35%;
+ }
+
+  img {
+    
+    width: 50%;
+    height: 20%;
+    border-radius: 12px;
+    border: solid;
+    margin-left: 100px;
+  }
+
+  .nombre{
+    top: 20px;
+    text-align: center;
+    color: black;
+    font-size:30px;
+    font-family: 'Fontdiner Swanky', cursive;
+  }
+
+  h2{
+    top: 20px;
+    text-align: center;
+    color: black;
+    font-size: calc(1.200rem + .5vw);
+    font-family: 'Fontdiner Swanky', cursive;
+  }
+
+  .verCartas{
+    justify-content: center;
+    align-items: center;
+    margin-left: 35%;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #f3e95c;
+    width: 150px;
+    height: 40px;
+    font-family: 'Fontdiner Swanky', cursive;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
